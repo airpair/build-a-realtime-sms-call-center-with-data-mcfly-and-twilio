@@ -198,7 +198,7 @@ var server = app.listen(port, function() {
 
 Now that we've built our server, we need to tell twilio to use this messaging url as a our Message Request URL:
 
-![](/images/posts/dashboard.png)
+![](http://blog.datamcfly.com/images/posts/dashboard.png)
 
 Send an SMS message to your Twilio number and you should get a response back. If you don’t, take a look at the [Twilio App Monitor](https://www.twilio.com/user/account/developer-tools/app-monitor) to help determine what went wrong.
 
